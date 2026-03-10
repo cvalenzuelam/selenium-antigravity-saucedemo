@@ -1,0 +1,45 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDE - VS Code
+.vscode/
+
+# WebDriverManager cache
+.wdm/
+
+# Test reports
+test-output/
+allure-results/
+allure-report/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment variables - NUNCA subir esto a git
+.env
+*.env.local
